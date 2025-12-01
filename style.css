@@ -85,7 +85,7 @@ h3 {
 
 
 /* ============================================
-   Mohamed PAGE STYLES
+   Mohammed 
    FRANCE PAGE STYLES
    ============================================ */
 
@@ -129,6 +129,23 @@ table tr:nth-child(even) {
 
 .best-places li {
     padding: 8px 0;
+}
+
+/* National Holiday */
+.holiday-content {
+    background-color: #f0f4ff;
+    padding: 15px;
+    border-left: 4px solid #667eea;
+    border-radius: 5px;
+}
+
+.holiday-content h4 {
+    color: #002395;
+    margin-bottom: 10px;
+}
+
+.holiday-content p {
+    margin-bottom: 8px;
 }
 
 /* External Link */
