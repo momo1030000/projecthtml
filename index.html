@@ -1,93 +1,112 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>France - Discover the Country</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-    <h1>site <br>mossad </h1>
-    <h2>hello word</h2>
-    <p>hello glue inthekitchen 8---------->
-       <img src="télécharger.webp" title="envie de m" alt="img">
-    <h3><p>salamlafamille</p></h3>
-    <h6>shalom</h6>
-    <p>bz</p>
-    </p>
-<ul>
-    
-    <li>hello wor bien soigner d</li>
-     <li>hello word</li>
-      <li>hello word</li>
+    <!-- Common Header -->
+    <header>
+        <h1>Countries of the World</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="votre_nom.html">France</a></li>
+                <li><a href="membre2_nom.html">Country 2</a></li>
+                <li><a href="membre3_nom.html">Country 3</a></li>
+            </ul>
+        </nav>
+    </header>
 
-</ul>
-<ol><li>shalom</li>
- <li>hello word</li>
- <li>hello word</li></ol>
- <h1><strong>beteu</strong></h1>
-<video src=""></video>
-<img src="" alt="">
-<a id="grosfilsdepute" href="https://youtu.be/ttoraptFgVE?si=12AtzdIG_1nYzDt2"> video youtu</a>
-<h1><strong>salolo purer</strong></h1>
-<form action="get">
-    <fieldset>
-    <label for="prenom">votre prenom 
-    <input type="text" required>
-    </label>
-    <label for="commentaire">laissez un com</label>
-    <textarea name="commentaire" id="tect"></textarea>
-    <label for="img">
-        <input type="button" value="envoyer">
-        <input type="submit" value="env">
-        <input type="email" name="email" id="">
-    </label>
+    <!-- Main Content -->
+    <main id="france-page">
+        <section class="country-intro">
+            <h2>France - Land of Art and Culture</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="French Flag" class="flag-image">
+        </section>
 
-    
+        <!-- Table: Country Characteristics -->
+        <section class="country-info">
+            <h3>General Information</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Characteristic</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Capital</td>
+                        <td>Paris</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>French</td>
+                    </tr>
+                    <tr>
+                        <td>Currency</td>
+                        <td>Euro (€)</td>
+                    </tr>
+                    <tr>
+                        <td>Population</td>
+                        <td>~67 million</td>
+                    </tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>643,801 km²</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-</fieldset>
-</form>
-    <table>
-        <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
+        <!-- List: Best Places -->
+        <section class="best-places">
+            <h3>Must-Visit Places</h3>
+            <ul>
+                <li><strong>Paris</strong> - The Eiffel Tower, Louvre Museum, Notre-Dame</li>
+                <li><strong>Provence</strong> - Lavender fields and charming villages</li>
+                <li><strong>French Riviera</strong> - Nice, Cannes, Monaco</li>
+                <li><strong>Mont Saint-Michel</strong> - Medieval island abbey</li>
+                <li><strong>Loire Valley</strong> - Magnificent castles</li>
+            </ul>
+        </section>
 
-        <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        
-         <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        
-         <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        
-         <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        
-         <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        
-    </table>
-   </header>
-   <nav></nav>
-   <main></main>
-   <footer></footer>
+        <!-- External Link -->
+        <section class="external-resources">
+            <h3>Learn More</h3>
+            <p>Discover more about France on the official tourism website:</p>
+            <a href="https://www.france.fr/en" target="_blank" class="external-link">Visit France.fr</a>
+        </section>
+
+        <!-- Form: Comments -->
+        <section class="comment-form">
+            <h3>Share Your Experience</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="comment">Your Comment:</label>
+                    <textarea id="comment" name="comment" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Submit Comment</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Common Footer -->
+    <footer>
+        <p>Team Members: Mohamed Si Ammar, [Membre 2], [Membre 3]</p>
+    </footer>
 </body>
 </html>
